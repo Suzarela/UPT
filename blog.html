@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <script src="https://kit.fontawesome.com/v4/icon/star.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/v4/icon/fa-star-o.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/v4/icon/fa-star-half-o.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/v4/icon/fa-heart-o.js" crossorigin="anonymous"></script> -->
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="course.html">Course</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+     <h1>Our Certificate & Online Programs For 2023</h1> 
+
+    </section>
+
+<!----- Blog page content ----->
+
+<section class="blog-content">
+      <div class="row">
+        <div class="blog-left">
+            <img src="images/certification.jpg">
+            <h1>Our Certificate & Online Programs For 2023</h1>
+            <p>All engineering and surveying academic programs meet the requirements so that graduates can apply for the fundamentals of engineering examination within any state of the United States and its territories. ABET does the verification, trained evaluators review and accredit programs in their respective disciplines and are members of professional associations at the national level.</p>
+            <br>
+            <p>In these last 10 years more than 90% of our students completed at least two internships before graduating, an achievement that allows them to have a job offer upon graduation. Our graduates are working in and outside of Tirana</p>
+            <br>
+            <p>A graduate of the industrial engineering career applies his/her skills and knowledge to increase operational efficiency in any type of business (healthcare, manufacturing, distribution / logistics and services of all kinds), reduce costs, and innovate work systems, as well as reduce the impact that work systems could have on the environment.</p>
+            <br>
+            <p>We are committed to offering each of our students an education that prepares them to be an innovative professional, problem-solving oriented, ethical, and committed to continuing their learning. Our students participate in research as well as student activities through student organizations such as IISE (Institute of Industrial and Systems Engineering), national and international conferences, among others that help them develop their skills in leadership and entrepreneurship.</p>
+            <div class="comment-box">
+
+                 <h3>Leave a comment</h3>
+                 <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter Email">
+                    <textarea rows="5" placeholder="Your Comment"></textarea>
+                    <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                 </form>
+
+            </div>
+        </div>
+        <div class="blog-right">
+        <h3>Post Categories</h3>
+        <div>
+            <span>Business Analytics</span>
+            <span>21</span>
+        </div>
+        <div>
+            <span>Machine Learning</span>
+            <span>28</span>
+        </div>
+        <div>
+            <span>Data Science</span>
+            <span>18</span>
+        </div>
+        <div>
+            <span>AutoCad</span>
+            <span>40</span>
+        </div>
+        <div>
+            <span>Computer Science</span>
+            <span>30</span>
+        </div>
+        <div>
+            <span>Journalism</span>
+            <span>23</span>
+        </div>
+        <div>
+            <span>Commerce</span>
+            <span>34</span>
+        </div>
+        </div>
+      </div>
+</section>
+
+
+<!---- Footer ---->
+
+<section class="footer">
+        <h4>About Us</h4>
+        <p>The Polytechnic University of Tirana is the oldest and the second largest university in Albania, after the University of Tirana.<br>It was founded in 1951 and now has approximately 10,000 students, who come from Albania, Kosovo, Montenegro, and North Macedonia.</p>
+        <div class="icon">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by Suzarela Hysenaj </p>
+</section>
+
+<i class="fa-sharp fa-solid fa-envelope"></i>
+
+
+
+
+<script>
+    var navLinks = document.getElementById("nav links");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+    
+</body>
+</html>

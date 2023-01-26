@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <script src="https://kit.fontawesome.com/v4/icon/star.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/v4/icon/fa-star-o.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/v4/icon/fa-star-half-o.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/v4/icon/fa-heart-o.js" crossorigin="anonymous"></script> -->
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="course.html">Course</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+     <h1>Our Courses</h1> 
+
+    </section>
+
+<!---- Course ---->
+<section class="course">
+    <h1>Course we offer</h1>
+    <p>Our courses are designed to help you understand concepts through an easy and hands-on approach. Moreover, with corresponding updates in the same industry listed alongside the course material our engineering courses ensure that you are in touch with the real world. Thus adding a layer of relevance.</p>
+<div class="row">
+    <div class="course-col">
+        <h3>Intermediate</h3>
+        <p>We are looking for a motivated and enthusiastic Intermediate Engineer, who is looking to be part of a meaningful change in an industry overdue for transformation.</p>
+
+    </div>
+    <div class="course-col">
+        <h3>Degree</h3>
+        <p>An engineer's degree is an advanced academic degree in engineering which is conferred in Europe, some countries of Latin America, North Africa and a few institutions in the United States. The degree may require a thesis but always requires a non-abstract project.</p>
+        
+    </div>
+    <div class="course-col">
+        <h3>Post graduation</h3>
+        <p>A post graduate diploma in engineering is a popular course among several engineering students who have done their graduate in the said field. A post graduate diploma is extremely helpful to those who plan to enhance their skills after completing their graduation.</p>
+        
+    </div>
+</div>
+</section>
+
+<!----- Facilities ----->
+<section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>Facility Management's mission is to efficiently operate, maintain, and improve campus facilities in support of University programs by providing a safe, clean, attractive, and friendly environment for students, faculty, staff, and visitors.</p>
+    <div class="row">
+        <div class="facilities-col">
+            <img src="images/library.jpg" width="305" height="300">
+            <h3>World Class Library</h3>
+            <p>We invite you to explore the services and resources offered at the Library. Here you shall find useful information published in books and journals print and online. We are subscribed to databases so you have access to information that is relevant to your field of study.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/sport.jpg">
+            <h3>Largest Play Ground</h3>
+            <p>Cultural, educational and sport venues play a crucial role in the training of tomorrow’s generations. We have a great responsibility: we design for the future of young people, for their human and professional achievement.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/cafetaria.jpg" width="305" height="300">
+            <h3>Tasty and Healthy Food</h3>
+            <p>Polytechnic University's cafeteria, one of the most popular spots on campus, provides a diverse menu of breakfast and lunch at reasonable prices. With excellent customer service, plus a great place to meet and chat with friends.</p>
+        </div>
+    </div>
+
+</section>
+
+
+<!---- Footer ---->
+
+<section class="footer">
+        <h4>About Us</h4>
+        <p>The Polytechnic University of Tirana is the oldest and the second largest university in Albania, after the University of Tirana.<br>It was founded in 1951 and now has approximately 10,000 students, who come from Albania, Kosovo, Montenegro, and North Macedonia.</p>
+        <div class="icon">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by Suzarela Hysenaj </p>
+</section>
+
+<i class="fa-sharp fa-solid fa-envelope"></i>
+
+
+
+
+<script>
+    var navLinks = document.getElementById("nav links");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+    
+</body>
+</html>
